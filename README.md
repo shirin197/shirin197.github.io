@@ -1,5 +1,5 @@
 <p align="center">
-  ![website_logo](https://user-images.githubusercontent.com/73479005/127383079-7775a4bf-60e2-44a3-aeab-bae7f29b5711.png)
+![website_logo](https://user-images.githubusercontent.com/73479005/127383529-f0585c24-7f51-47ea-91a0-3cdd7538ed5c.png)
 </p>
 <h1 align="center">
   shirin197.github.io
