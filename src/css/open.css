@@ -47,11 +47,11 @@ font-size: 20px;
 padding-bottom: 50px;
 }
 
-.description{
-font-size: 20px;
-max-width: 55%;
+.description {
+font-size: 25px;
+max-width: 35%;
+padding-right: 35px;
 padding-bottom: 50px;
 color: #c1c1c1;
-width: 40%;
 }
 
