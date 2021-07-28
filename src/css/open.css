@@ -5,11 +5,11 @@ html {
 
 
 /*the main div which include the rest div's*/
-div.open {
+.open {
   display: flex;
   align-items: flex-start;
   padding-left: 15%;
-  padding-top: 5%;
+  padding-top: 15%;
   background-color: #202124;
   min-height: 75vh;
   flex-direction: column;
@@ -17,13 +17,12 @@ div.open {
 
 /*div.open.title*/
 .open-title {
-height: 30%;
-width: 10.3ch;                  /*size how wide the '|' go*/
 color: #c1c1c1;
-transform: translate(-50%, -50%);
-font-size: 32px;
+font-size: 45px;
 font-family: 'Anonymous Pro';
 
+width: 10.3ch;                  /*size how wide the '|' go*/
+transform: translate(-10%, -90%);
 animation: typing 2s steps(15), blink .5s step-end infinite alternate;
 white-space: nowrap;
 overflow: hidden;
@@ -35,20 +34,17 @@ border-right: 3px solid;
     width: 0
   }
 }
-    
 @keyframes blink {
   50% {
     border-color: transparent
   }
 }
 
-
 /*open.description*/
 .open.description {
 width: 65%;
 font-size: 20px;
 padding-bottom: 50px;
-
 }
 
 .description{
