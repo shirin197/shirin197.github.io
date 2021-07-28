@@ -1,0 +1,11 @@
+/*CSS for App div in index.html*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#App {
+    padding: 42px 24px;
+    background-color: bisque;
+}

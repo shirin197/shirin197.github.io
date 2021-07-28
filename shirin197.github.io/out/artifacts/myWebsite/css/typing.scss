@@ -1,0 +1,41 @@
+
+$bg: #1d1f20;
+$text-color: #FFFFFF;
+$caret-color: white;
+$text-length: 16;
+$animation-time: 4s;
+// Center content
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: $bg;
+}
+// Basic style
+h1 {
+  font-family: 'Inconsolata', Consolas, monospace;
+  font-size: 4em;
+  color: $text-color;
+}
+// Typing style
+.typing {
+  position: relative;
+  &::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: $caret-color;
+    background: $bg;
+    animation: typing $animation-time steps($text-length) forwards,
+    caret 1s infinite;
+  }
+}
+// Animation
+@keyframes typing {
+  to { width: 0 }
+}
+@keyframes caret {
+  50% { color: transparent }
+}
