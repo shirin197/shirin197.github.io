@@ -4,8 +4,14 @@ html {
 }
 
 
-/*the main div which include the rest div's*/
-.open {
+/*the main div which include the rest div's
+  included divs: - div.open.title, 
+                 - title-wi_01, 
+                 - open.description, 
+                 - description  
+ */
+ /*open*/
+div.open {
   display: flex;
   align-items: flex-start;
   padding-left: 15%;
@@ -15,17 +21,25 @@ html {
   flex-direction: column;
 }
 
+/*title-wi_01*/
+.title-wi_01 {
+  width: 50%;
+  height: 70px;
+}
+
 /*div.open.title*/
 .open-title {
+padding-left: 24%;
+width: 10.3ch;                  /*size how wide the '|' go*/
 color: #c1c1c1;
-font-size: 45px;
+transform: translate(-50%, -50%);
+font-size: 50px;
 font-family: 'Anonymous Pro';
 
-width: 10.3ch;                  /*size how wide the '|' go*/
-transform: translate(-10%, -90%);
 animation: typing 2s steps(15), blink .5s step-end infinite alternate;
 white-space: nowrap;
 overflow: hidden;
+/* width from | */
 border-right: 3px solid;
 }
 
@@ -35,22 +49,22 @@ border-right: 3px solid;
   }
 }
 @keyframes blink {
-  50% {
+  75% {
     border-color: transparent
   }
 }
 
+
 /*open.description*/
-.open.description {
-width: 65%;
-font-size: 20px;
+.open.description{
+width: 50%;
 padding-bottom: 50px;
+
 }
 
-.description {
-font-size: 25px;
-max-width: 35%;
-padding-right: 35px;
+.description{
+font-size: 20px;
+max-width: 50%;
 padding-bottom: 50px;
 color: #c1c1c1;
 }
