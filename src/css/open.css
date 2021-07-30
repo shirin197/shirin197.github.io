@@ -1,6 +1,10 @@
+
+
 html {
   scroll-behavior: smooth;
-  background-color: #202124;
+  background-color: white;
+  height: auto;
+  font-size: 62.5%;
 }
 
 
@@ -12,12 +16,14 @@ html {
  */
  /*open*/
 div.open {
+  border-top-right-radius: 0.5% ;
+  border-top-left-radius: 0.5%;
   display: flex;
   align-items: flex-start;
   padding-left: 15%;
   padding-top: 15%;
   background-color: #202124;
-  min-height: 75vh;
+  min-height: 60vh;
   flex-direction: column;
 }
 
@@ -36,7 +42,7 @@ transform: translate(-50%, -50%);
 font-size: 50px;
 font-family: 'Anonymous Pro';
 
-animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+animation: typing 2s steps(15), blink .6s step-end infinite alternate;
 white-space: nowrap;
 overflow: hidden;
 /* width from | */
@@ -57,15 +63,48 @@ border-right: 3px solid;
 
 /*open.description*/
 .open.description{
-width: 50%;
 padding-bottom: 50px;
 
 }
-
+ /*description*/
 .description{
 font-size: 20px;
 max-width: 50%;
 padding-bottom: 50px;
 color: #c1c1c1;
+margin-right: 50%;
 }
 
+/*line*/
+.line {
+background: #c1c1c1;
+height: 1px;
+width: 80%;
+border-radius: 25px;
+display: flex;
+}
+
+/*nav*/
+.nav {
+  width: 80%;
+  display: flex;
+  height: 40px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 13px;
+  padding: 0;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding-right: 17px;;
+  color:#c1c1c1;
+  text-decoration: none;
+}
