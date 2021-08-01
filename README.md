@@ -5,3 +5,11 @@
   shirin197.github.io
 </h1>
 <p align="center">
+  ## 🎨 Color's
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Silver Sand    | ![#c1c1c1](https://via.placeholder.com/15/f03c15/000000?text=+) `#c1c1c1` |
+| Dark Jungle Green | ![#202124](https://via.placeholder.com/15/c5f015/000000?text=+) `#202124` |
+
+
