@@ -4,7 +4,6 @@
 <h1 align="center">
   shirin197.github.io
 </h1>
-<p align="center">
 ## 🎨 Color's
 
 | Color            | Hex                                                                 |
