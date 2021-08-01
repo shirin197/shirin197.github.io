@@ -18,3 +18,18 @@ text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 10px;
 }
+
+.nav-top {
+    padding-top: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+a.link-footer {
+    text-decoration: none;
+    color: #c1c1c1;
+    font-size: 1em;
+}
