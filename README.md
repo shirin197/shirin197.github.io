@@ -8,9 +8,9 @@
  <p align="center"> ## 🎨 Color's
    </p>
 <p align="center">
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Silver Sand    | ![#c1c1c1](https://via.placeholder.com/15/f03c15/c1c1c1?text=+) `#c1c1c1` |
-| Dark Jungle Green | ![#202124](https://via.placeholder.com/15/c5f015/202124?text=+) `#202124` |
+| Color            | Hex                                                                 |
+| ---------------- | ------------------------------------------------------------------- |
+| Silver Sand      | ![#c1c1c1](https://via.placeholder.com/10/c1c1c1?text=+) `#c1c1c1`  |
+| Dark Jungle Green| ![#202124](https://via.placeholder.com/10/202124?text=+) `#202124` |
 </p>
 
