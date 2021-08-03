@@ -1,4 +1,20 @@
 div.milestone {
     min-height: 70vh;
     background-color: #202124;
+    background-color: #202124;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
 }
+
+div.inner-box {
+  display: flex;
+  align-items: flex-start;
+  min-height: 60vh;
+  flex-direction: column;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #383838;
+  background-color: #f8f8f8;
+  }
