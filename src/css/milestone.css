@@ -1,4 +1,8 @@
 div.milestone {
     min-height: 70vh;
     background-color: #202124;
+    background-color: #202124;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
 }

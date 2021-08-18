@@ -2,8 +2,7 @@
 .nav {
     width: 80%;
     display: flex;
-    height: 40px;
-  
+    margin-bottom: 10px;
   }
   
   ul {
@@ -21,7 +20,7 @@
       color:#c1c1c1;
       text-decoration: none;
       font-family: 'Dosis', sans-serif;
-      font-size: 2em;
+      font-size: 27px;
       display: inline-block;
       position: relative;
     }

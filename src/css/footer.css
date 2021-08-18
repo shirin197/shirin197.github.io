@@ -3,5 +3,33 @@ min-height: 10vh;
 background-color: #202124;
 border-bottom-right-radius: 0.5% ;
 border-bottom-left-radius: 0.5%;
+text-align: center;
+}
 
+#open {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.footertext {
+    padding-top: 50px;
+    color: #c1c1c1;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+}
+
+.nav-top {
+    padding-top: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+
+a.link-footer {
+    text-decoration: none;
+    color: #c1c1c1;
+    font-size: 1em;
 }
