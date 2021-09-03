@@ -1,0 +1,17 @@
+
+html {
+    scroll-behavior: smooth;
+    background-color: white;
+    height: 100%;
+  }
+
+.hw {
+margin: 25%;
+font-size: 65px;
+padding-bottom: 20%;
+}
+
+.fu {
+    margin: 25%;
+padding-bottom: 20%;
+}
